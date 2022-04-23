@@ -1,0 +1,39 @@
+a {
+    text-decoration: none !important;
+}
+
+.btn-body {
+    color: #999;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    position: relative;
+    transition: width 0.2s ease;
+}
+
+.btn-body::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    transition: width 0.5s ease;
+    height: 2px;
+    background-color: white;
+}
+
+.btn-body:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.btn-body:hover::after,
+.active::after {
+    width: 100%;
+}
+
+.btn-title {
+    font-weight: bold;
+    margin-left: 12px;
+}

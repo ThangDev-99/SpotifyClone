@@ -1,0 +1,6 @@
+:root {
+    --width-sidebar: 200px;
+    --border-radius: 10px;
+    --sidebar-color: white;
+    --sidebar-bg-color: rgba(0, 0, 0, 0.8);
+}

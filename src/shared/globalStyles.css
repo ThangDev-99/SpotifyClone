@@ -1,0 +1,25 @@
+.screen-container {
+    width: calc(100% - var(--width-sidebar));
+    height: 100%;
+    background-color: #2c7c65;
+    opacity: 1;
+    background-image: repeating-radial-gradient( circle at center left, transparent 0, #0a7e5b55 40px), repeating-linear-gradient( #02473355, #00251a55);
+}
+
+.flex {
+    display: flex;
+}
+
+.card-container {
+    margin-right: 1%;
+    padding: 0 2% 0;
+    width: 33.3%;
+    height: 85%;
+    border-radius: 30px;
+    background-color: rgba(9, 66, 48, 0.7);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 17, 0.2) 0px 7px 29px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
